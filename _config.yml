@@ -42,5 +42,9 @@ plugins:
 #   - vendor/gems/
 #   - vendor/ruby/
 
+header_pages:
+  - index.md
+  - something.md
+
 
 remote_theme: "jeffreytse/jekyll-theme-yat"

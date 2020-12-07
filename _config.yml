@@ -46,5 +46,10 @@ header_pages:
   - index.md
   - something.md
 
+defaults:
+  home:
+    heading: "Che's blog"
+    subheading: ""
+    banner: "keywest.jpg"
 
 remote_theme: "jeffreytse/jekyll-theme-yat"

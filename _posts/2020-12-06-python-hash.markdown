@@ -5,7 +5,7 @@ date: 2020-12-07
 categories: python
 ---
 If you click on this article because of the title, you'll be disappointed. This article is not (only) about immutable and hashable objects in python. 
-The reason is that I thought of something else that's interesting the moment I start writing.
+The reason is that I was struck by something else at the moment I started writing.
 
 
 I belives most people know the famous question:

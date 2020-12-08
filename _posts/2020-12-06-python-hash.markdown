@@ -1,12 +1,16 @@
 ---
 layout: post
-title: "Hashables in python: what they are and how to use them"
+title: "Immutable vs hashable objects in python"
 date: 2020-12-07
 categories: python
 ---
+If you click on this article because of the title, you'll be disappointed. This article is not (only) about immutable and hashable objects in python. 
+The reason is that I thought of something else that's interesting the moment I start writing.
 
-According to [Python glossary](https://docs.python.org/2/glossary.html):
 
-> An object is hashable if it has a hash value which never changes during its lifetime (it needs a __hash__() method), and can be compared to other objects (it needs an __eq__() or __cmp__() method). Hashable objects which compare equal must have the same hash value.
-> Hashability makes an object usable as a dictionary key and a set member, because these data structures use the hash value internally.
-> All of Python’s immutable built-in objects are hashable, while no mutable containers (such as lists or dictionaries) are. Objects which are instances of user-defined classes are hashable by default; they all compare unequal (except with themselves), and their hash value is derived from their id().
+I belives most people know the famous question:
+> If a tree falls in a forest...
+I came up with a similar question for python:
+If a value gets destroyed and no name is referring to it, does it make a sound?
+
+Well, values in a programming langauge does not make a sound anyways. I guess the real question is, how do we know the value is destroyed if it is no longer referenced?

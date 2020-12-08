@@ -14,4 +14,4 @@ I belives most people know the famous question:
 I came up with a similar question for python:
 If a value gets destroyed and no name is referring to it, does it make a sound?
 
-Well, values in a programming langauge does not make a sound anyways. I guess the real question is, how do we know the value is destroyed if it is no longer referenced?
+Well, values do not make a sound anyways. I guess the real question is, how do we know the value is destroyed if it is no longer referenced?

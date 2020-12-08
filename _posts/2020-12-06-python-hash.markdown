@@ -10,6 +10,7 @@ The reason is that I thought of something else that's interesting the moment I s
 
 I belives most people know the famous question:
 > If a tree falls in a forest...
+
 I came up with a similar question for python:
 If a value gets destroyed and no name is referring to it, does it make a sound?
 

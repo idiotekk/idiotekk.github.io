@@ -8,7 +8,7 @@ If you click on this article because of the title, you'll be disappointed. This 
 The reason is that I was struck by something else at the moment I started writing.
 
 
-I belives most people know the famous question:
+I believes most people know the famous question:
 > If a tree falls in a forest...
 
 I came up with a similar question for python:

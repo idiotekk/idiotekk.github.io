@@ -46,6 +46,8 @@ header_pages:
   - index.md
   - something.md
 
+head_transparent: false
+
 defaults:
   home:
     heading: "Che's blog"

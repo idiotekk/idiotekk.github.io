@@ -1,8 +1,8 @@
 ---
 layout: post
 title: "Learning Java: the very basics"
-date: 2020-12-07
-categories: python
+date: 2020-12-11
+categories: java
 ---
 
 Why do I learn Java?

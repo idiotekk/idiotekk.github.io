@@ -23,5 +23,8 @@ Modifiers defines the scope of accissibility
 # string methods
 --which is important because programming is all about numbers and string, after all
 `length, concat, indexOf, charAt, equals, substring, toUpperCase, toLowerCase`
-do what they literally mean; `indexOf` can find (first occurance) of a substring.
+do what they literally mean.
+## remarks
+- `indexOf` can find (first occurance) of a substring
+- `concat` does not change original string; neither do `toUpperCase` and `toLowerCase`
 

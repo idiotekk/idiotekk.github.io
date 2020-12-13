@@ -14,6 +14,7 @@ And occasionally, I need to write html myself.
 - `p` for paragraph
 - `h1`, `h2`, ... for head, number indicating depth (or level)
 - `ul` for unordered list, `ol` for ordered list; and `li` for list item
+- `a` for achor, may have `href` linking to website, or bookmark like `#Chapter1`, or internal pages
 - and so on
 
 *except for*
@@ -21,5 +22,4 @@ And occasionally, I need to write html myself.
 - `<br>` which does not close with a `</br>`.
 - self-closing tags where the `/` can be ommitted
     - <img src=... />
-
 

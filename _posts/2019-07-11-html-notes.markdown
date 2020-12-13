@@ -8,6 +8,7 @@ categories: programming, bash
 Why do I learn html?
 Answer: it is part of an effort to know what is going on under the hood of each webpage.
 And occasionally, I need to write html myself.
+First of all, [this](https://htmlcheatsheet.com/) will be super useful.
 
 # simply put
 , enclose text by `<tag> </tag>` here `tag` could be:

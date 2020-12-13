@@ -15,7 +15,9 @@ And occasionally, I need to write html myself.
 - `h1`, `h2`, ... for head, number indicating depth (or level)
 - `ul` for unordered list, `ol` for ordered list; and `li` for list item
 - and so on
+
 *except for*
+
 - `<br>` which does not close with a `</br>`.
 - self-closing tags where the `/` can be ommitted
     - <img src=... />

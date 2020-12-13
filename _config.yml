@@ -26,7 +26,7 @@ github_username:  ziliac
 
 # Build settings
 markdown: kramdown
-theme: minima
+# theme: minima
 plugins:
   - jekyll-feed
 
@@ -54,4 +54,5 @@ defaults:
     subheading: ""
     banner: "keywest.jpg"
 
-remote_theme: "jeffreytse/jekyll-theme-yat"
+#remote_theme: "jeffreytse/jekyll-theme-yat"
+theme: jekyll-theme-minimal

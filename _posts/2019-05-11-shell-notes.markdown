@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Shell scripts: the very basics"
-date: 2020-12-11
+date: 2019-05-11
 categories: java
 ---
 

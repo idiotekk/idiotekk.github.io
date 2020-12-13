@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "bash scripts: the very basics"
+title: "Bash scripts: the very basics"
 date: 2019-05-11
 categories: programming, bash
 ---
@@ -27,5 +27,4 @@ This will not include what everybody knows: `ls, cd` etc. (One needs to know thi
 ## io
 - `read x` ask user for an input, store input as x
 
-
-# the higher basic
+# the higher basics

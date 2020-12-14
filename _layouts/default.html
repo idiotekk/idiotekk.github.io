@@ -31,7 +31,7 @@
           {% if page.slug and page.slug != "" and page.slug != nil %}
             {% assign page_link = page.slug %}
           {% else %}
-            {% assign page_link = "/" | append: page.name | downcase %}
+            {% assign page_link = "/" | append: page.file | downcase %}
           {% endif %}
           {% assign page_link = page_link | absolute_url %}
           <a class="page-link" href="{{ page_link }}">

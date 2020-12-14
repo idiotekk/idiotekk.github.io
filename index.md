@@ -6,6 +6,6 @@ profile_picture:
 ---
 
 <p>
-  Welcome! </a>.
+  Welcome! 
 </p>
 

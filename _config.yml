@@ -42,9 +42,12 @@ plugins:
 header:
   pages:
     - name: home
+      file: index
       slug: /
     - name: about
+      file: about
     - name: blog
+      file: blog
 
 head_transparent: false
 

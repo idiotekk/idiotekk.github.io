@@ -39,8 +39,11 @@ plugins:
 #   - vendor/gems/
 #   - vendor/ruby/
 
-header_pages:
-  - index.md
+header:
+  pages:
+    - name: home
+    - name: about
+    - name: blog
 
 head_transparent: false
 

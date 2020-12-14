@@ -26,7 +26,8 @@
         <p class="view"><a href="{{ site.github.owner_url }}">View My GitHub Profile</a></p>
         {% endif %}
         
-        
+        <ul>
+          
         {% for page in site.header.pages %}
           {% if page.slug and page.slug != "" and page.slug != nil %}
             {% assign page_link = page.slug %}
@@ -34,10 +35,14 @@
             {% assign page_link = "/" | append: page.file | downcase %}
           {% endif %}
           {% assign page_link = page_link | absolute_url %}
-          <a class="page-link" href="{{ page_link }}">
-            {{ page.name }}
-          </a>
+          <li>
+            <a class="page-link" href="{{ page_link }}">
+              {{ page.name }}
+            </a>
+          </li>
         {% endfor %}
+          
+        </ul>
 
       </header>
       <section>

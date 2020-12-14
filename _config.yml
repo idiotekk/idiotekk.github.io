@@ -42,6 +42,7 @@ plugins:
 header:
   pages:
     - name: home
+      slug: /
     - name: about
     - name: blog
 

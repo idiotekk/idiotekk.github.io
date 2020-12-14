@@ -15,7 +15,7 @@
 # in the templates via {{ site.myvariable }}.
 title: ZChe's blog
 email: cheziliang@gmail.com
-description: An wanderer
+description: A wanderer
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: jekyllrb

@@ -35,3 +35,17 @@ If we define `.bold` instead of `p.bold`, then in html `classe="bold"` is not li
 }
 ```
 - `color red !important;` will override everything in case of confliction.
+
+# the box
+- space of the box
+ - `padding` defines the space between text and border; more specific variables are `padding-top`, etc.
+ - `margin` defines the space between border and the boundary of the page (or containter); comes with `margin-top`, etc.
+ - both `padding` and `margin` can be specified in one line, clock-wise for top, right, bottom, left; for example
+
+```
+p {
+    padding: 1px 2px;
+    /* padding: 1px 2px 3px 4px; */
+    /* padding: 1px auto; */ /* auto for entering; must comes with width defined */
+}
+```

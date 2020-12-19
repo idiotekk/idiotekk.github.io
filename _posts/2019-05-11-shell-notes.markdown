@@ -21,8 +21,8 @@ This will not include what everybody knows: `ls, cd` etc. (One needs to know thi
 - `-z` determines a variable is null or not
 
 ## loop
-- if else ` if [ $x -ge 0 ]; then ... ; else ... ; fi`
-- while ` while [ ...]; do ...; done `; to increment a variable, say `x`: `x = $((x + 1))`:w
+- if else `if [ $x -ge 0 ]; then ... ; else ... ; fi`
+- while `while [ ...]; do ...; done `; to increment a variable, say `x`: `x = $((x + 1))`:w
 
 ## io
 - `read x` ask user for an input, store input as x

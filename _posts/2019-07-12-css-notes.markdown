@@ -11,6 +11,10 @@ Answer: it is part of an effort to know what is going on under the hood of each 
 
 And occasionally, I need to write css code myself. I have built web app using `shiny` library in R, and to achieve certain color-coding effects I had to modify a block of css code that I had no clue how it works. I copied from goolge and try my best to modify it without knowing the syntax of css. It was painful. And I realize that I'd be happier and better off if I understand something like that. 
 
+And to get the understanding, I'd better learn the basics in a systematic way, rather than reading a block of complicated css code, and look up everything I do not understand.
+
+It is similar to the process of learning a natural language, say Italian: it is very inefficient to grab a Italian newspaper and try to look up every word you see, when you do not know Italian at all.
+
 # what is css
 Cascade style sheet.
 

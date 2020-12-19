@@ -19,12 +19,14 @@ Cascade style sheet.
 ```
 p {
     font-family: Arial;
-}```
+}
+```
 - define rules for a class, which will be used like `<p class="bold">`:
 ```
 p.bold { 
     font-weight: bold;
-}```
+}
+```
 If we define `.bold` instead of `p.bold`, then in html `classe="bold"` is not limited to `<p>`.
 - define rules for an id, while will be used like `<h1 id="chapter2>`:
 ```

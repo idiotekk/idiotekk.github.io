@@ -20,7 +20,7 @@ p {
     font-family: Arial;
 }
 
-.bold {
+p.bold { 
     font-weight: bold;
 }
 
@@ -29,4 +29,5 @@ p {
 }
 ```
 To apply above css, do
-`<p id="chapter2", class="bold">
+`<p id="chapter2", class="bold">`
+If we define `.bold` instead of `p.bold`, then in html `classe="bold"` is not limited to `<p>`.

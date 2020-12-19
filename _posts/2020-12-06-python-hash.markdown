@@ -1,26 +1,20 @@
 ---
 layout: post
-title: "Immutable vs hashable objects in python"
+title: "Falling tree and garbage collection"
 date: 2020-12-07
 categories: python
 tags: [programming, python]
 ---
-If you click on this article because of the title, you'll be disappointed. This article is not (only) about immutable and hashable objects in python. 
-The reason is that I was struck by something else at the moment I started writing.
-
 ## Falling tree and garbage collection
 
-I believes most people know the famous question:
+I believes most people know the famous koan:
 > If a tree falls in a forest...
 
-I came up with a similar question for python:
-If a value gets destroyed and no name is referring to it, does it make a sound?
+I came up with a similar question for python: If a value gets destroyed and no name is referring to it, does it make a sound?
 
-Values do not make a sound anyways. I guess the real question is, how do we know the value is destroyed if it is no longer referenced?
+Values do not make a sound anyways, but they are destoyed if no longer referenced to, which is done implicitly by the memory management in Python. I guess the real question is, how do we know the value is destroyed if it is no longer referenced?
 
-Well, I don't know. But pro pythoners say so. I better believe it.
-
-There is, however, a way to check reference count:
+There is a way to check reference count:
 
 ```
 import sys

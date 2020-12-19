@@ -15,7 +15,7 @@ Cascade style sheet.
 
 # basic examples
 
-- define rules for a tag, for example, `p`: ```
+- define rules for a tag, for example, `p`:.. ```
 p {
     font-family: Arial;
 }```

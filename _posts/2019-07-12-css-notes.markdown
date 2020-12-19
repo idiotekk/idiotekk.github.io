@@ -39,6 +39,10 @@ If we define `.bold` instead of `p.bold`, then in html `classe="bold"` is not li
 - `color red !important;` will override everything in case of confliction.
 
 # the box
+- box model explained by a image, from [geekforgeeks](https://media.geeksforgeeks.org/)
+<img src="https://media.geeksforgeeks.org/wp-content/uploads/box-model-1.png"
+     alt="Markdown Monster icon"
+     style="float: left; margin-right: 10px;" />
 - space of the box
     - `padding` defines the space between text and border; more specific variables are `padding-top`, etc.
     - `margin` defines the space between border and the boundary of the page (or containter); comes with `margin-top`, etc.

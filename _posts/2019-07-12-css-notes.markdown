@@ -15,15 +15,15 @@ Cascade style sheet.
 
 # basic examples
 
-```
+- tag ```
 p {
     font-family: Arial;
-}
-
+}```
+- class ```
 p.bold { 
     font-weight: bold;
-}
-
+}```
+- id ```
 #chapter2 {
     color: green;
 }
@@ -31,3 +31,5 @@ p.bold {
 To apply above css, do
 `<p id="chapter2", class="bold">`
 If we define `.bold` instead of `p.bold`, then in html `classe="bold"` is not limited to `<p>`.
+
+- `color red !important;` will override everything in case of confliction.

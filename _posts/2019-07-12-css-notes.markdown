@@ -15,21 +15,18 @@ Cascade style sheet.
 
 # basic examples
 
-- tag ```
+- define rules for a tag, for example, `p`: ```
 p {
     font-family: Arial;
 }```
-- class ```
+- define rules for a class, which will be used like `<p class="bold">`: ```
 p.bold { 
     font-weight: bold;
 }```
-- id ```
+If we define `.bold` instead of `p.bold`, then in html `classe="bold"` is not limited to `<p>`.
+- define rules for an id, while will be used like `<h1 id="chapter2>`: ```
 #chapter2 {
     color: green;
 }
 ```
-To apply above css, do
-`<p id="chapter2", class="bold">`
-If we define `.bold` instead of `p.bold`, then in html `classe="bold"` is not limited to `<p>`.
-
 - `color red !important;` will override everything in case of confliction.

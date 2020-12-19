@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "html: the very basics"
+title: "css: the very basics"
 date: 2019-07-11
 tags: [programming, bash]
 ---

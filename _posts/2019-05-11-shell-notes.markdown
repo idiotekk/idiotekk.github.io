@@ -2,7 +2,7 @@
 layout: post
 title: "Bash scripts: the very basics"
 date: 2019-05-11
-categories: programming, bash
+tags: [programming, bash]
 ---
 
 Why do I learn Shell scripts?

@@ -3,6 +3,7 @@ layout: post
 title: "Immutable vs hashable objects in python"
 date: 2020-12-07
 categories: python
+tags: [programming, python]
 ---
 If you click on this article because of the title, you'll be disappointed. This article is not (only) about immutable and hashable objects in python. 
 The reason is that I was struck by something else at the moment I started writing.

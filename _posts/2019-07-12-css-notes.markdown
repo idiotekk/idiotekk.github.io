@@ -1,0 +1,32 @@
+---
+layout: post
+title: "html: the very basics"
+date: 2019-07-11
+tags: [programming, bash]
+---
+
+Why do I learn css?
+Answer: it is part of an effort to know what is going on under the hood of each webpage.
+
+And occasionally, I need to write css myself. I have built a shiny app, and had to modify a bloc of css code that I had no clue how it works. I copied from goolge and try my best to modify it without knowing the syntax of css. It was painful. And I realize that I'd be happy if I understand something like that.
+
+# what is css
+Cascade style sheet.
+
+# basic examples
+
+```
+p {
+    font-family: Arial;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+#chapter2 {
+    color: green;
+}
+```
+To apply above css, do
+`<p id="chapter2", class="bold">

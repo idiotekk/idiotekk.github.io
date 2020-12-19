@@ -3,6 +3,7 @@ layout: post
 title: "Learning Java: the very basics"
 date: 2020-12-11
 categories: java
+tags: [programming, java]
 ---
 
 Why do I learn Java?

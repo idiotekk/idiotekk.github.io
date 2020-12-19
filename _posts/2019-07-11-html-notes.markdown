@@ -1,8 +1,8 @@
 ---
 layout: post
 title: "html: the very basics"
-date: 2019-05-11
-categories: programming, bash
+date: 2019-07-11
+tags: [programming, bash]
 ---
 
 Why do I learn html?

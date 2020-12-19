@@ -53,3 +53,9 @@ If we define `.bold` instead of `p.bold`, then in html `classe="bold"` is not li
                 /* padding: 1px 2px 3px 4px; */
                 /* padding: 1px auto; */ /* auto for entering; must comes with width defined */
             }
+
+# Topography
+Fonts are important, because it influence how you feel when reading the text.
+
+In css, font-related properties are specified by `font-family,font-size,font-weight`, their meaning self-explained.
+Spacing of text defined by `line-height,letter-

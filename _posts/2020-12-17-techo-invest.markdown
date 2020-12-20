@@ -23,6 +23,17 @@ Of course there were a number of super-stars in the past that went wrong and fel
 - Myspace: still exists, but only a music site. It was once an oppoent of Facebook, but failed because of bad user experience.
 - Netscape: once the only competitor of Internet Explorer (now both are history). Firefox was born out of it.
 
-Most of these companies failed because they were unable to keep up with the advances of technologies, or their products did not fit market well. See more company failures at [failory.com](https://www.failory.com/cemetery)
+Most of these companies failed because they were unable to keep up with the advances of technologies, or their products did not fit market well. See more company failures at [failory.com](https://www.failory.com/cemetery). So one does not simply invest in a tech companiess and hold for 10 years, and 10x his/her money. Work needs to be done to do the right investment!
 
-
+What are the industries that expect significant growth in the next decades? Let's look at the holding of ARK, an ETF that invests in tech sector: 
+1. TSLA, new energy vechicle
+2. ROKU, streaming
+3. CRSP, gene-editing
+4. SQ, electric payment
+5. NVTA, gene testing
+6. TDOC, telemedicine
+7. Z, online real-estate
+8. PRLB, 3d printing
+9. SPOT, audio streaming
+10. PSTG, clouding computing
+These basically represent the hottest trends in technologies: gene techonology, EV, telemedicine, cloud computing/storage. 

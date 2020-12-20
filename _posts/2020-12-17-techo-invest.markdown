@@ -36,4 +36,5 @@ What are the industries that expect significant growth in the next decades? Let'
 8. PRLB, 3d printing
 9. SPOT, audio streaming
 10. PSTG, clouding computing
+
 These basically represent the hottest trends in technologies: gene techonology, EV, telemedicine, cloud computing/storage. 

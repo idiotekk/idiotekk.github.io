@@ -23,6 +23,6 @@ Of course there were a number of super-stars in the past that went wrong and fel
 - Myspace: still exists, but only a music site. It was once an oppoent of Facebook, but failed because of bad user experience.
 - Netscape: once the only competitor of Internet Explorer (now both are history). Firefox was born out of it.
 
-Most of these companies failed because they were unable to keep up with the advances of technologies. See more company failures at [failory.com](https://www.failory.com/cemetery)
+Most of these companies failed because they were unable to keep up with the advances of technologies, or their products did not fit market well. See more company failures at [failory.com](https://www.failory.com/cemetery)
 
 

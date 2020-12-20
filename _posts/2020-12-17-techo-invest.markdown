@@ -17,6 +17,9 @@ What this means to an investor is that there will be many potential oppotunities
 
 Of course there were a number of super-stars in the past that went wrong and fell, to name a few: 
 - AOL: declined because of the dial-up is replaced by brandband.
-- AltaVista: once the king of search engine, bought by Yahoo and was closed in 2003.
+- AltaVista: once the most popular search engine, bought and sold several times but no one had a clue how to monetize it. It was later superceded by Google which was faster and offered better user experience. AltaVista had powerfull and cool way to [write queries](http://jkorpela.fi/altavista/), but an average internet user would never bother going that far. Bought by Yahoo and was closed in 2003.
 - Myspace: still exists, but only a music site.
 - Netscape: once the only competitor of Internet Explorer (now both are history). Firefox was born out of it.
+Most of these companies failed because they were unable to keep up with the advances of technologies.
+
+

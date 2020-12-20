@@ -38,3 +38,6 @@ What are the industries that expect significant growth in the next decades? Let'
 10. PSTG, clouding computing
 
 These basically represent the hottest trends in technologies: gene techonology, EV, telemedicine, cloud computing/storage. 
+
+# new energy
+Projection of electricity generation by source: [click here](https://www.eia.gov/outlooks/aeo/images/AEO2020_infographic_2.png)

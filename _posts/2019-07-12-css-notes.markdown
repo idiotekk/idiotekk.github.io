@@ -58,4 +58,4 @@ If we define `.bold` instead of `p.bold`, then in html `classe="bold"` is not li
 Fonts are important, because it influence how you feel when reading the text.
 
 In css, font-related properties are specified by `font-family,font-size,font-weight`, their meaning self-explained.
-Spacing of text defined by `line-height,letter-
+Spacing of text defined by `line-height,letter-space`, etc.

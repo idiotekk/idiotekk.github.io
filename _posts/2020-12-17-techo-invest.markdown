@@ -25,7 +25,7 @@ Of course there were a number of super-stars in the past that went wrong and fel
 
 Most of these companies failed because they were unable to keep up with the advances of technologies, or their products did not fit market well. See more company failures at [failory.com](https://www.failory.com/cemetery). So one does not simply invest in a tech companiess and hold for 10 years, and 10x his/her money. Work needs to be done to do the right investment!
 
-What are the industries that expect significant growth in the next decades? Let's look at the holding of ARKK, an ETF that invests in tech sector: 
+What are the industries that expect significant growth in the next decades? Let's look at the holding of [ARKK](https://ark-funds.com/arkk), an ETF that invests in tech sector: 
 1. TSLA, new energy vechicle
 2. ROKU, streaming
 3. CRSP, gene-editing

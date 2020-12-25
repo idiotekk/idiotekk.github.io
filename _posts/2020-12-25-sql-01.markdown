@@ -12,6 +12,7 @@ tags: [programming, sql]
 # How to write it
 The essentials of SQL are quite easy to learn because its similarity to natural language, and IMO it is easier if you happen to know `data.table` in `R`.
 Basically this summarizes how it works
+```
         WITH table1 AS (
             SELECT col1, col2
             FROM table2
@@ -27,4 +28,4 @@ Basically this summarizes how it works
         WHERE col4 > 10
         GROUP BY col5
         ORDER BY col6
-
+```

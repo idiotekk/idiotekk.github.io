@@ -1,0 +1,10 @@
+---
+layout: post
+title: "SQL 101"
+date: 2020-12-25
+categories: programming
+tags: [programming, sql]
+---
+
+# What is SQL?
+[SQL](https://en.wikipedia.org/wiki/SQL) stands for standard query language. It is a language for handling [relational database](https://en.wikipedia.org/wiki/Relational_database).

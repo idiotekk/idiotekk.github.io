@@ -1,15 +1,17 @@
 ---
 layout: post
-title: "roadmap 2021"
+title: "Roadmap 2021"
 date: 2021-01-02
 categories: journal
 tags: [journal]
 ---
 
 There is no need to emphasize that 2020 was an extra-ordinary year, during which, the world changed a lot, so did I. I experienced sad things, had some thoughts about life, and at the same time, make a fortune by luck and courage. 
+
+## highlights 
 In the middle of the year, I had the thought to become a musician, and took action towards it. But now I am not too serious about that, the reason is that I think compared to becoming a musician, full-time or part-time, it looks more promising and important to realize financial freedom, after which, I can do whatever exciting with lower risk. That being said, I never regret picking up a bass and make progress on it, which is a rewarding and unique experience. Also, maybe someday I will become professional on that, who knows?
 
-## what I learnt from 2020
+## takeaways (or: what I learnt from 2020)
 - fortune does not fall from the sky when you sit there and watch, you have to take action, and very likely take risk too, to earn it
 - stay healthy, stay happy, and work for yourself, play the long game. 
 

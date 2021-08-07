@@ -41,6 +41,9 @@ reversed_dict = dict(zip(old_dict.values(), old_dict.keys()))
 Be careful of collision of values, as a dictionary may not be one-to-one.
 
 ## Print with saparator
+Print is too useful so it's good make the most ouf ot it.
 ```python
 print(*arg, sep=",")
 ```
+
+## To Be Continued

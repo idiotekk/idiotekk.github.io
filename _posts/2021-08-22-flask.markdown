@@ -8,6 +8,10 @@ tags: [journal]
 
 This is a bried note for the course "build python web apps with flask" from [codecademy](https://www.codecademy.com).
 
+# Django vs Flask?
+- Django Full-stack web framework that follows the batteries-included approach.
+- Flask is more light-weight but as powerful when fully utilized.
+
 # Front-end vs back-end
 Front-end of a website 
 - consists of HTML, CSS, JavaScript and static assets.

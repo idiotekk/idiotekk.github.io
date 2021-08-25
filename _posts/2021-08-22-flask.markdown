@@ -27,3 +27,6 @@ Back-end
 # HTTP?
 Stands for **H**yper**t**ext **T**ransfer **P**rotocol.
 
+# jinja2?
+Jinja2 is the [template engine](https://en.wikipedia.org/wiki/Template_processor) of flask.
+

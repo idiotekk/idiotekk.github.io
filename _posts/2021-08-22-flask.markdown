@@ -6,7 +6,7 @@ categories: journal
 tags: [journal]
 ---
 
-This is a bried note for the course "build python web apps with flask" from [codecademy](https://www.codecademy.com).
+This is a brief note for the course "build python web apps with flask" from [codecademy](https://www.codecademy.com).
 
 # Django vs Flask?
 - Django Full-stack web framework that follows the batteries-included approach.
@@ -21,6 +21,8 @@ Back-end
 
 # Stack?
 > The collection of technologies used to create the front-end and back-end of a web application is referred to as a _stack_ 
+
+Two set of stacks:
 - MEAN stack: Mongo.DB, Expresss.js, Angular JS, and Node.js
 - LAMP stack: Linux, Apache, MySQL and PHP
 
@@ -29,4 +31,7 @@ Stands for **H**yper**t**ext **T**ransfer **P**rotocol.
 
 # jinja2?
 Jinja2 is the [template engine](https://en.wikipedia.org/wiki/Template_processor) of flask.
+It's a cool name.. sounds like "ninja".
+
+
 

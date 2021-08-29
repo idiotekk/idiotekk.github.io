@@ -49,7 +49,7 @@ Jinja2 is the [template engine](https://en.wikipedia.org/wiki/Template_processor
 It's a cool name.. sounds like "ninja".
 
 ## Essential syntax
-Embedding a variable into a html is simply done by `{{ that_varibale }}`. If-else statement, for-loop, extension are marked by `{% %}`.
+Embedding a variable into a html is simply done by `{{ that_varibale }}`, here `{{ }}` is called a delimiter. **Statements** like if-else statement, for-loop, extension are marked by `{% %}`, and comments are enclosed by `{# #}`.
 
 ### If else
 ```jinja2
@@ -70,12 +70,13 @@ Nothing to display.
 </ul>
 ```
 You see, a lot is similar to python syntax, however if-else and for-loop must be closed by `{% endif %}` and `{% endfor %}`. Why?? While python can tell the end of a for-loop by indentation, html is insensitve to indentation, therefore you need to tell it when an if-else or for-loop ends.
-### Block extension
+### Template inheritance
+A "child template" looks like this, which "extends" a parent template.
 ```jinja2
-{% extend "base_template.html" }
-{% block content %}{% endblock %}
+{% extend "base_template.html" %}
+{% block my_block_tag %}{% endblock %}
 ```
-While `{% block content %}{% endblock %}` encloses the block in "base_template.html".
+While `{% block my_block_tage %}{% endblock %}` encloses the block in the parent template "base_template.html".
 
 
 

@@ -52,8 +52,7 @@ The name jinja is from Japanese "神社". Go to [here](https://jinja.palletsproj
 Embedding a variable into a html is simply done by `{{ that_varibale }}`, here `{{ ... }}` is called a delimiter. **Statements** like if-else statement, for-loop, extension are marked by "", and comments are enclosed by `{# ... #}`.
 
 ### If else
-```html
-{% raw %}
+```text
 {% if my_list|length > 1 %}
 {{my_list[1]}}
 {% elif my_list|length > 0 %}
@@ -61,10 +60,9 @@ Embedding a variable into a html is simply done by `{{ that_varibale }}`, here `
 {% else %}
 Nothing to display.
 {% endif %}
-{% endraw %}
 ```
 ### For loop
-```html
+```text
 <ul>
 {% for k, v in my_dict.items() %}
 <li> {{ k }} {{ v}} </li>
@@ -74,7 +72,7 @@ Nothing to display.
 You see, a lot is similar to python syntax, however if-else and for-loop must be closed by `{% endif %}` and `{% endfor %}`. Why?? While python can tell the end of a for-loop by indentation, html is insensitve to indentation, therefore you need to tell it when an if-else or for-loop ends.
 ### Template inheritance
 A "child template" looks like this, which "extends" a parent template.
-```jinja2
+```text
 {% extend "base_template.html" %}
 {% block my_block_tag %}{% endblock %}
 ```

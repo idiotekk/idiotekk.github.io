@@ -51,31 +51,33 @@ The name jinja is from Japanese "神社". Go to [here](https://jinja.palletsproj
 ## Essential syntax
 Embedding a variable into a html is simply done by `{{ that_varibale }}`, here `{{ ... }}` is called a delimiter. There are 3 delimiters:
 ```jinja
-{{ variable }}
-{% statement %}
-{# for comments#}
+{% raw %}
+  {{ variable }}
+  {% statement %}
+  {# for comments#}
+{% endraw %}
 ```
 
 ### If else
 ```jinja
 {% raw %}
-{% if my_list|length > 1 %}
-{{my_list[1]}}
-{% elif my_list|length > 0 %}
-{{my_list[0]}}
-{% else %}
-Nothing to display.
-{% endif %}
+  {% if my_list|length > 1 %}
+  {{my_list[1]}}
+  {% elif my_list|length > 0 %}
+  {{my_list[0]}}
+  {% else %}
+  Nothing to display.
+  {% endif %}
 {% endraw %}
 ```
 ### For loop
 ```jinja
 {% raw %}
-<ul>
-{% for k, v in my_dict.items() %}
-<li> {{ k }} {{ v}} </li>
-{% endfor %}
-</ul>
+  <ul>
+  {% for k, v in my_dict.items() %}
+  <li> {{ k }} {{ v}} </li>
+  {% endfor %}
+  </ul>
 {% endraw %}
 ```
 You see, a lot is similar to python syntax, however if-else and for-loop must be closed by `{% endif %}` and `{% endfor %}`. Why?? While python can tell the end of a for-loop by indentation, html is insensitve to indentation, therefore you need to tell it when an if-else or for-loop ends.

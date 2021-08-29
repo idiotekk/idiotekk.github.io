@@ -52,7 +52,8 @@ The name jinja is from Japanese "神社". Go to [here](https://jinja.palletsproj
 Embedding a variable into a html is simply done by `{{ that_varibale }}`, here `{{ ... }}` is called a delimiter. **Statements** like if-else statement, for-loop, extension are marked by "", and comments are enclosed by `{# ... #}`.
 
 ### If else
-```
+```jinja
+{% raw %}
 {% if my_list|length > 1 %}
 {{my_list[1]}}
 {% elif my_list|length > 0 %}
@@ -60,6 +61,7 @@ Embedding a variable into a html is simply done by `{{ that_varibale }}`, here `
 {% else %}
 Nothing to display.
 {% endif %}
+{% endraw %}
 ```
 ### For loop
 ```

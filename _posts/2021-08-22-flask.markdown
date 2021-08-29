@@ -53,7 +53,7 @@ Embedding a variable into a html is simply done by `{{ that_varibale }}`, here `
 
 ### If else
 ```jinja2
-{% my_list|length > 1 %}
+{% if my_list|length > 1 %}
 {{my_list[1]}}
 {% elif my_list|length > 0 %}
 {{my_list[0]}}

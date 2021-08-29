@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Build a web app with flask"
+title: "Flask and web development"
 date: 2021-08-22
 categories: journal
 tags: [journal]
@@ -27,7 +27,22 @@ Two set of stacks:
 - LAMP stack: Linux, Apache, MySQL and PHP
 
 # HTTP?
-Stands for **H**yper**t**ext **T**ransfer **P**rotocol.
+Stands for **H**yper**t**ext **T**ransfer **P**rotocol, is designed to enable communications between clients and servers.
+## Methods
+### GET
+GET is used to request data from a resource.
+### POST
+POST is to send data to create/update a resource.
+
+## How it works??
+The client sends request to the server and the server processes the request sends back the response. Both request and response are in the form of HTTP message, which has start line, headers.
+### Request HTTP message
+- Start line: method, url, http/version
+- Headers: key-value pairs
+### Response HTTP message
+- Start line: http/version status code (404: not found, 200: ok, etc)
+- Headers: key-value pairs
+- Body: 
 
 # Jinja2?
 Jinja2 is the [template engine](https://en.wikipedia.org/wiki/Template_processor) of flask.
@@ -61,5 +76,6 @@ You see, a lot is similar to python syntax, however if-else and for-loop must be
 {% block content %}{% endblock %}
 ```
 While `{% block content %}{% endblock %}` encloses the block in "base_template.html".
+
 
 

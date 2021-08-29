@@ -8,7 +8,7 @@ tags: [journal]
 
 Some python trick that saves time/code.
 
-## Walrus operator or (more formally, the Assignment Expression)
+## Walrus operator (or more formally, the Assignment Expression)
 This is new in 3.8.
 The operator allows you to define and use a variable in one line.
 [PEP 572](https://www.python.org/dev/peps/pep-0572/) has every detail of the operator.
@@ -44,6 +44,16 @@ Be careful of collision of values, as a dictionary may not be one-to-one.
 Print is too useful so it's good make the most ouf ot it.
 ```python
 print(*arg, sep=",")
+```
+
+## Iterrate through a tree
+Yes you can construct an iterator recursive. The key is `yield from`.
+```python
+def iter_values(root):
+    if root is None: return # return will yield nothing
+    yield from iter_values(root.left)
+    yield root.val
+    yield from iter_values(root.right)
 ```
 
 ## To Be Continued

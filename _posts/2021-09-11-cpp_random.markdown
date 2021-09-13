@@ -42,18 +42,18 @@ delete [] set;
 
 # Dot dot dot...?
 `...` means [unknown number of variables](https://en.wikipedia.org/wiki/Variadic_function#In_C++).
-It is seen in most popular languages, however not so strightforward in cpp as in pythong/R.
+It is seen in most popular languages, however not so strightforward in cpp as in python/R.
 
 # Initialization
 ## How shall I initialize a variable?
 Four kinds of initialization:
 ```cpp
-int x; # no initilizer
+int x; # strictly speaking this is not a "initialization" because the varible is not initialized
 int x = 5; # copy initialization
 int x(5); # direct initialization
 int x{ 5 }; # init in braces; if putting nonthing in {}, the variable is set to 0.
 ```
-The last one is favored because it does not silently convert the input if the input has the wrong type (like `int(4.5)` will convert `4.5` to `4`), and will throw an error.
+The last one is favored because it does not silently convert the input if the input has the wrong type. For example `int(4.5)` will silently converts `4.5` to `4`, losing the decimal part `.5`, while `int{4.5}` won't compile. We never like data lost without being known.
 
 ## Expression, statement, expression statement
 Basically expresion = result; statement = action. Expression statement is both (it is a statement by definition), but the "result" is discarded.

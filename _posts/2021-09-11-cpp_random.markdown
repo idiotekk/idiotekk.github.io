@@ -7,8 +7,12 @@ tags: [journal]
 ---
 
 
-This article is one of a series about some random facts about C++.
+This article is one of a series about some random facts/thoughts on C++.
 
+# Why do I learn C++
+- For work.
+- C++ is a lower-level language. Learning it makes me understand better how machine works, which is helpful for higher-level languages too.
+- C++ is a good skill to have. It is one of the most popular and mature language, one can do many things with existing libraies and with the wide community support.
 
 # Virtual function
 

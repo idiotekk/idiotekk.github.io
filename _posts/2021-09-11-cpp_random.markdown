@@ -49,7 +49,7 @@ delete [] set;
 It is seen in most popular languages, however not so strightforward in cpp as in python/R.
 
 # Initialization
-## How shall I initialize a variable?
+### How shall I initialize a variable?
 Four kinds of initialization:
 ```cpp
 int x; # strictly speaking this is not a "initialization" because the varible is not initialized
@@ -59,17 +59,17 @@ int x{ 5 }; # init in braces; if putting nonthing in {}, the variable is set to 
 ```
 The last one is favored because it does not silently convert the input if the input has the wrong type. For example `int(4.5)` will silently converts `4.5` to `4`, losing the decimal part `.5`, while `int{4.5}` won't compile. We never like data lost without being known.
 
-## Expression, statement, expression statement
+### Expression, statement, expression statement
 Basically expresion = result; statement = action. Expression statement is both (it is a statement by definition), but the "result" is discarded.
 ```
 x = 2
 ```
 Suffixing it with an `;` makes it a expression statement.
 
-## You can't define a fuction inside another function
+### You can't define a fuction inside another function
 Unlike many other languages.
 
-## main() should return 0 to indicate it runs successfully
+### main() should return 0 to indicate it runs successfully
 Where `0` is [exit status](https://en.wikipedia.org/wiki/Exit_status).
 Other two standard status: `EXIT_SUCCESS` and `EXIT_FAILURE`.
 

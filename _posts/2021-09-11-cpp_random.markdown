@@ -6,7 +6,6 @@ categories: journal
 tags: [journal]
 ---
 
-
 This article is one of a series about some random facts/thoughts on C++.
 
 # Why do I learn C++
@@ -73,4 +72,8 @@ Unlike many other languages.
 Where `0` is [exit status](https://en.wikipedia.org/wiki/Exit_status).
 Other two standard status: `EXIT_SUCCESS` and `EXIT_FAILURE`.
 
+# boolean variable take one byte to store
+Not one **bit**, because the minimal indivisible storage unit is 1 byte.
 
+# unsigned intergeers are evil. leave them alone
+For example, subtracting a signed from an unsigned can give weird result, becuase the signed is converted to unsigned.

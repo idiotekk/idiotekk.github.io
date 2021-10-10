@@ -77,3 +77,10 @@ Not one **bit**, because the minimal indivisible storage unit is 1 byte.
 
 # unsigned intergeers are evil. leave them alone
 For example, subtracting a signed from an unsigned can give weird result, becuase the signed is converted to unsigned.
+
+# Functional pointer
+When to use them: 
+- Point to callback functions (functions that are arguments of other functions).
+
+It is essentially the C way to [Dependency inversion](https://en.wikipedia.org/wiki/Dependency_inversion_principle)
+A. High-level modules should not depend on low-level modules. Both should depend on abstractions. B. Abstractions should not depend upon details. Details should depend upon abstractions.

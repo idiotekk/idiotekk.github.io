@@ -81,6 +81,7 @@ For example, subtracting a signed from an unsigned can give weird result, becuas
 # Functional pointer
 When to use them: 
 - Point to callback functions (functions that are arguments of other functions).
+- Looks like 
 
 It is essentially the C way to [Dependency inversion](https://en.wikipedia.org/wiki/Dependency_inversion_principle)
-A. High-level modules should not depend on low-level modules. Both should depend on abstractions. B. Abstractions should not depend upon details. Details should depend upon abstractions.
+> A. High-level modules should not depend on low-level modules. Both should depend on abstractions. B. Abstractions should not depend upon details. Details should depend upon abstractions.

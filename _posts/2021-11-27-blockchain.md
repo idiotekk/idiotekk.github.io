@@ -26,6 +26,12 @@ This is the 3rd investment in my life that went 10x. I liked it from first sight
 
 Thanks to good luck it went up like crazy, and I got all my investment back by selling a small portion of the assets. 
 
+# DOT/KSM
+
+To my surprise many projects that already on Kusama are still in a very very early stage. Bit.country for example only has a few poor demos that look far less competetent sandbox or decentralland. (Let's say I won't have any appitite for the project based on such demos.) Maybe that's my false expecation: Kusama is supposed to be early-stage, explorative and experimental, less mature than Polkadot. 
+
+On the other hand that's a good thing - they still have good upside potentil possibly.
+
 # Next hype
 
 The key to prosper in this world is to front-run a hype and hold through it. What is the next hype?

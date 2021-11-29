@@ -34,11 +34,11 @@ On the other hand that's a good thing - they still have good upside potentil pos
 
 # Next hype
 
-The key to prosper in this world is to front-run a hype and hold through it. What is the next hype?
+The key to prosper in the blockchain world is to front-run a hype and hold through it. What is the next hype?
 The next bull market will come before 2024 for sure, likely 1 year before that (because smart investor like to front run news).
 Let's see what are the options:
 - Defi: This is an area that's ever growing, but has not caught attention for a while. Likely the next hot topic.
 - Game & metaverse: A hype is ongoing. Not a good time to buy right now, but keep an eye on good projects to prepare for next.
 - Social network: a very new idea not seen in many blockchains, much related to metaverse. Subsocial from Kusama network for example might be something big in the future. Meta will play a role here? 
 - Relay chain: other than Polkadot, hard to tell, worth digging.
-- Meme coins: a tricky regime, but there are 100x or 1000x oppotunities.
+- Meme coins: a tricky regime, but there are 100x or 1000x oppotunities. Doge and Shiba Inu are gone oppotunities. Dogelon Mars might be good after maybe tanking 1 or 2 more months. 

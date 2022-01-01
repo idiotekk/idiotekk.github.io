@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "A random walk on block chains[2]: next hype"
+title: "A random walk on block chains [2]: next hype"
 date: 2021-12-24
 categories: journal
 tags: [journal]
@@ -22,4 +22,3 @@ What's different from that we own a facebook account or an asset in a video game
 The infrastructure for the metaverse is still in infancy.
 - Opensea, the largest NFG market place is still barely better than garbage, not to mention others.
 - Bridges are needed to connect everything into a single network. The current "verse" is still fragmented into many chains with limited connection in between.
-

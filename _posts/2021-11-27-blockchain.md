@@ -1,8 +1,15 @@
 ---
 layout: post
-title: "A random walk on block chains[1]"
-date: 2021-11-27
+title: "A random walk on block chains[3]: random thoughts"
+date: 2022-01-01
 categories: journal
 tags: [journal]
 ---
+
+What I learnt in crypto market:
+1. Dollar-cost averageing stead of buying in a lump-sum, for *any* investment. Reason?
+    a. I'm always investing mid and long term, and there's alway nearly half chance that the price will drop, which is good for buying later.
+    c. What if the price shoots sky high when you are piling up the stake? That's good and bad (good that you made money, bad that you didn't put more). However you do not lose much by stopping -- there is enough opportunity in this market!
+2. Think twice on any investment decision. You may change your mind and think something is garbage after a few days, and you'll regret the decision!
+3. Safety could never be over-emphasized: if you invest in garbage, the downside might be 50%; if you are careless with your wallet, the downside might be 100%!
 

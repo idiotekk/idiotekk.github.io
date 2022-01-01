@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "A random walk on block chains[2]"
+title: "A random walk on block chains[2]: next hype"
 date: 2021-12-24
 categories: journal
 tags: [journal]

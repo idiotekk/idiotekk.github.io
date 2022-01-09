@@ -35,3 +35,16 @@ In the long term, several scenarios may or may not happen:
 3. APY drops to a few percent which is barely better than putting USD into bank. Price of native token stays.
 
 I choose ROME because it's the next-generation of Olympus (not necessarily better but offers something orthogonal and innovative) and still has the early-joiner rewards now, at this early stage.
+
+## Real-life application and oracles
+
+We need them badly for sure. Why? Look at what blockchain industry has been busy with: defi - swap tokens with tokens (not even with real money - centralized exchanges do that). NFT: swap tokens with tokens. Metaverse: swap token with tokens. Relay chains: provide platforms that support swapping of tokens. Meme coins: tokens. Stablecoins (Terra, USDT, USDC, ...): tokens that are pegged with real currencies.
+
+For blockchains to expand its influence, we need broader interaction of blockchains with the real world. 
+- Social media
+- Sports betting, stock market predicting
+- Identity
+- Credentials
+
+# oracles
+Oracles will play an important role here. What is oracles? Oracles provide a way for the decentralized Web 3.0 ecosystem to access existing data sources, legacy systems, and advanced computations.

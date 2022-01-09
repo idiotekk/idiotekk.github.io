@@ -25,12 +25,12 @@ The infrastructure for the metaverse is still in infancy.
 
 # Defi 2.0
 Defi 2.0 has been a thing for a long time - at least one year. It was widely noticed in Q4 of 2021, I only looked into it recently.
-The central concept is protocol-owned liquidity, which solves the lack of liquidity problem for dexes. Basically that means the protocol provides its own liquidity instead of users providing liquidity pairs.
+The central concept is protocol-owned-liquidity, which solves the lack of liquidity problem for dexes. Basically that means the protocol provides its own liquidity instead of users providing liquidity pairs.
 Defi 2.0 protocols are often suffixed with "DAO", I don't know why; and they typically offer crazy high APY - in their native token not in USD.
-Out of all the Defi 2.0 portocols I have looked into two: Olympus DAO is the pioneer, Rome DAO is a fork with extra features lauched in the DotSama ecosystem. I'd say, they are highly experimental and it is still yet to prove itself a sustainable model, but it is worth a bet.
+Out of all the Defi 2.0 portocols I have looked into two: Olympus DAO is the pioneer launched on ETH, Rome DAO is a fork with extra features lauched in the DotSama ecosystem. I'd say, they are highly experimental and it is still yet to prove itself a sustainable model, but it is worth a bet.
 
 In the long term, several scenarios may or may not happen:
-1. Price of the native token sustains while APY remains high, early joiners get rich - this can only happen if the protocol experience exponential growth, which is unlikely not sustainable.
+1. Price of the native token sustains while APY remains high, early joiners get rich - this can only happen if the protocol experience exponential growth, which is unlikely sustainable.
 2. Price of the native token drops, and converge towards 1 dollar (which is the theoretical "intrinsic value").
 3. APY drops to a few percent which is barely better than putting USD into bank. Price of native token stays.
 

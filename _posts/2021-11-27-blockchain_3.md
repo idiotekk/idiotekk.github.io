@@ -42,9 +42,9 @@ We need them badly for sure. Why? Look at what blockchain industry has been busy
 
 Supprisingly, stablecoins are the closest thing to real life among all those! But life is not just tokens, and blockchains should not be just tokens. Tokens will be a increasingly large part of life, as metaverse gradually comes true, however, real-world life stays a *very* large part of our life, in the near or mid future. And in the process of migrating life to metaverse (or simply a blockchain based virtual world) we need tools to deal with real world data.
 
-For blockchains to expand its influence, we need broader interaction of blockchains with the real world. 
+What are the scenario or directions here:
 - Social media
-- Sports betting, stock market predicting
+- Sports betting, stock market predicting, ...
 - Identity
 - Credentials
 

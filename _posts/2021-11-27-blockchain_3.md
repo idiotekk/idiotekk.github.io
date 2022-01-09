@@ -26,7 +26,7 @@ The infrastructure for the metaverse is still in infancy.
 # Defi 2.0
 Defi 2.0 has been a thing for a long time - at least one year. It was widely noticed in Q4 of 2021, I only looked into it recently.
 The central concept is protocol-owned-liquidity, which solves the lack of liquidity problem for dexes. Basically that means the protocol provides its own liquidity instead of users providing liquidity pairs.
-Defi 2.0 protocols are often suffixed with "DAO", I don't know why; and they typically offer crazy high APY - in their native token not in USD.
+Defi 2.0 protocols are often suffixed with "DAO", I don't know why (of source I know what DAO stands for but...); and they typically offer crazy high APY - in their native token not in USD.
 Out of all the Defi 2.0 portocols I have looked into two: Olympus DAO is the pioneer launched on ETH, Rome DAO is a fork with extra features lauched in the DotSama ecosystem. I'd say, they are highly experimental and it is still yet to prove itself a sustainable model, but it is worth a bet.
 
 In the long term, several scenarios may or may not happen:

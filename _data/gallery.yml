@@ -37,17 +37,18 @@ selected_artworks:
   portfolio__title: Selected artworks
   portfolio__gallery:
 
+    - image: /images/generative_art/space_travel.gif
+      title: Space traveller
+      description: Flying through space for 10 hours.
+
+    - image: /images/generative_art/iris.gif
+      title: Circles
+      description: Circles in my mind.
+
     - image: /images/0xzuki/sakura_4510.gif
       title: Fallen sakura
       description: "0xzuki #14510 animated with sakura rain."
 
-    - image: /images/midnightbreeze/rain_mb2.gif
-      title: Midnight rain
-      description: "Midnightbreeze #4542 animated with rain drops."
-
-    - image: /images/generative_art/space_travel.gif
-      title: Space traveller
-      description: Flying through space for 10 hours.
 
 portfolio2:
   portfolio__title: Midnightbreeze fan arts

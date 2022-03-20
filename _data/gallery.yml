@@ -43,7 +43,7 @@ selected_artworks:
 
     - image: /images/midnightbreeze/rain_mb2.gif
       title: Midnight rain
-      description: "Midnightbreeze ##4542 animated with rain drops."
+      description: "Midnightbreeze #4542 animated with rain drops."
 
     - image: /images/generative_art/space_travel.gif
       title: Space traveller
@@ -55,7 +55,7 @@ portfolio2:
 
     - image: /images/midnightbreeze/rain_mb2.gif
       title: Midnight rain
-      description: "Midnightbreeze ##4542 animated with rain drops."
+      description: "Midnightbreeze #4542 animated with rain drops."
 
     - image: /images/midnightbreeze/vintage_mb1.gif
       title: Once upon a time, on a summer night
@@ -63,7 +63,7 @@ portfolio2:
 
     - image: /images/midnightbreeze/starwars_mb1.jpeg
       title: The death star
-      description: Wipe them out. All of them.
+      description: Wipe them out. All of them. -- The Emperor
 
     - image: /images/midnightbreeze/bloodborne_mb1.jpeg
       title: The red moon

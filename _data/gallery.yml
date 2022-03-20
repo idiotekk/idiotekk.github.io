@@ -39,33 +39,43 @@ selected_artworks:
 
     - image: /images/0xzuki/sakura_4510.gif
       title: Fallen sakura
-      description: Let the sakura rain...
+      description: "0xzuki #14510 animated with sakura rain."
 
     - image: /images/midnightbreeze/rain_mb2.gif
-      title: Midnight
-      description: Rain.
+      title: Midnight rain
+      description: "Midnightbreeze ##4542 animated with rain drops."
 
     - image: /images/generative_art/space_travel.gif
-      title: Space 
+      title: Space traveller
       description: Flying through space for 10 hours.
 
 portfolio2:
   portfolio__title: Midnightbreeze fan arts
   portfolio__gallery:
+
     - image: /images/midnightbreeze/rain_mb2.gif
-      title: Midnight
-      description: Rain.
+      title: Midnight rain
+      description: "Midnightbreeze ##4542 animated with rain drops."
 
     - image: /images/midnightbreeze/vintage_mb1.gif
       title: Once upon a time, on a summer night
       description: Old film style.
+
+    - image: /images/midnightbreeze/starwars_mb1.jpeg
+      title: The death star
+      description: Wipe them out. All of them.
+
+    - image: /images/midnightbreeze/bloodborne_mb1.jpeg
+      title: The red moon
+      description: The red moon hangs low, and the beasts rule the streets.
+
 
 generative_art:
   portfolio__title: Generative art
   portfolio__gallery:
 
     - image: /images/generative_art/space_travel.gif
-      title: Space 
+      title: Space traveller
       description: Flying through space for 10 hours.
 
     - image: /images/generative_art/iris.gif

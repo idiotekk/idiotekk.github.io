@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  color clustering with python opencv
+title:  Color clustering with python opencv
 date:   2022-03-20 
 image:  '/images/posts/opencv_cluster/maboroshi_clean_2.png'
 tags:   [python, computer vesion]

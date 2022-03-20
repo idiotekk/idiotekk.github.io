@@ -1,8 +1,8 @@
 #-------------------------------
 # Site Settings
-title: 0xMayaka
+title: mayaka
 logo: # You can add own logo. For example '/images/logo.png'.
-author: 0xMayaka
+author: 0xmayaka
 description: Clancy is a elegant portfolio theme for Jekyll.
 
 
@@ -12,10 +12,10 @@ menu__settings:
   menu__items:
     - title: 'Home'
       url: '/'
-    - title: 'Blog'
-      url: '/blog/'
     - title: 'Gallery'
       url: '/gallery'
+    - title: 'Blog'
+      url: '/blog/'
 #    - title: 'About'
 #      url: '/about/'
 #    - title: 'Contact'
@@ -28,7 +28,7 @@ menu__settings:
 # Hero Settings
 hero:
   hero__title: Welcome!
-  hero__description: I am a programming artist.
+  hero__description: I am mayaka, a programming artist.
 
 
 #-------------------------------

@@ -115,3 +115,11 @@ portfolio:
     - image: /images/0xzuki/p4_circles_colored_True.png
       title: Vinyl (colored)
       description: Mimicing the vinyl style.
+
+    - image: /images/0xzuki/maboroshi_0182.gif
+      title: Maborosi
+      description: Tribute to a 1995 film <a href="https://en.wikipedia.org/wiki/Maborosi">Maboroshi</a>.
+
+    - image: /images/0xzuki/6660_bw.png
+      title: Polkadots
+      description: Tribute to Ukraine war and the king Gavin Wood.

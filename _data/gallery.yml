@@ -34,35 +34,44 @@ hero:
 #-------------------------------
 # Portfolio Settings
 selected_artworks:
-  portfolio__title: selected artworks
+  portfolio__title: Selected artworks
   portfolio__gallery:
 
     - image: /images/0xzuki/sakura_4510.gif
       title: Fallen sakura
       description: Let the sakura rain...
 
-    - image: /images/0xzuki/rain_4375.gif
-      title: Rain
-      description: "Happy when it rains."
+    - image: /images/midnightbreeze/rain_mb2.gif
+      title: Midnight
+      description: Rain.
 
-    - image: /images/0xzuki/quadtree_dot_9079.gif
-      title: Quadtree
-      description: Quadtree traverse of 0xzuki 9079.
-
-    - image: /images/0xzuki/2549_circles_colored_False.png
-      title: Vinyl
-      description: Mimicing the vinyl style.
+    - image: /images/generative_art/space_travel.gif
+      title: Space 
+      description: Flying through space for 10 hours.
 
 portfolio2:
-  portfolio__title: midnightbreeze fan arts
+  portfolio__title: Midnightbreeze fan arts
   portfolio__gallery:
     - image: /images/midnightbreeze/rain_mb2.gif
       title: Midnight
       description: Rain.
 
+    - image: /images/midnightbreeze/vintage_mb1.gif
+      title: Once upon a time, on a summer night
+      description: Old film style.
+
 generative_art:
-  portfolio__title: generative art
+  portfolio__title: Generative art
   portfolio__gallery:
+
+    - image: /images/generative_art/space_travel.gif
+      title: Space 
+      description: Flying through space for 10 hours.
+
+    - image: /images/generative_art/iris.gif
+      title: Circles
+      description: Circles in my mind.
+
 
 portfolio:
   portfolio__title: 0xzuki fan arts

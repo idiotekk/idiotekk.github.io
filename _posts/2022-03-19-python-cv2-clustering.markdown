@@ -6,15 +6,15 @@ image:  '/images/posts/opencv_cluster/maboroshi_clean_2.png'
 tags:   [python, computer vesion]
 ---
 
-Sometimes you want to break down a image into a few pieces with unique colors. This is a easy task if the image only has a few colors, however, in many cases the image has noises and may have hundreds of colors that are different from, but very similar to, a few colors. 
+Sometimes you want to break down a image into a few pieces with unique colors. This is an easy task if the image only has a few colors, however, in many cases the image has noise and may have hundreds of colors that are different from, but very similar to, a few colors. 
 
-To give a more concrete example, this image below (a kanji standing for "illusion") appears to have only two colors: black and white.
+To give a concrete example, this image below (幻; a kanji standing for "illusion") appears to have only two colors: black and white.
 
 <p align="center">
 <img align="center" width="300" height="300" src="{{site.baseurl}}/images/posts/opencv_cluster/maboroshi.jpeg">
 </p>
 
-However it has more than 100 colors spanning a spectrum from pure black to pure white. How to replace "nearly black" with black and "nearly white" with white? One solution is kmeans-clustering algorithm from a python library `opencv`.
+However it has more than 100 colors spanning a spectrum from pure black to pure white, which makes some downstream processing difficult (like "replacing white by red" for example). How can one replace "nearly black" with black and "nearly white" with white? A nice solution is given by the kmeans-clustering algorithm from a python library `opencv`. Shown below is a step-by-step example with the image above.
 
 First, install [opencv](https://pypi.org/project/opencv-python/). In most cases you just need to run in terminal:
 ```bash
@@ -30,15 +30,15 @@ image = cv2.imread(str(input_file))
 image = cv2.cvtColor(image, cv2.COLOR_BGR2RGB)
 ```
 \
-this converts an image to an array with shape (height, width, 3), where the third dimension stores the color of each pixel in [rgb](https://en.wikipedia.org/wiki/rgb_color_model) format. aternatively you can read the image with [pillow](https://pillow.readthedocs.io/en/stable/), a popular image-processing library.
+this converts an image to an array with shape (height, width, channels), where the third dimension stores the color of each pixel in [rgb](https://en.wikipedia.org/wiki/rgb_color_model) format. aternatively you can read the image with [pillow](https://pillow.readthedocs.io/en/stable/), a popular image-processing library.
 
-then flatten the array to a matrix with 3 rows, where each column represents a pixel. this is a requirement for the input of the kmeans algorithm.
+Then, flatten the array to a matrix with 3 rows, where each column represents a pixel. This is a requirement for the input of the kmeans algorithm.
 ```python
 pixel_values = image.reshape((-1, 3))
 pixel_values = np.float32(pixel_values)
 ```
 \
-use `cv2.kmeans` to find the centers and labels.
+Use `cv2.kmeans` to find the centers and labels.
 ```python
 criteria = (cv2.TERM_CRITERIA_EPS + cv2.TERM_CRITERIA_MAX_ITER, 100, 0.2)
 k = 2 # number of colors you want in the result
@@ -49,7 +49,7 @@ centers = np.uint8(centers)
 labels = labels.flatten()
 ```
 \
-note the labels is a vector of integer labels that indicates which color each pixel has. we need to convert back to rgb colors by translating the labels to rgb colors, then rehsape it to the original shape.
+Note that the labels are a vector of integers that indicates which color each pixel has, we need to convert back to rgb colors by translating the labels to rgb colors, then rehsape it to the original shape.
 ```python
 output_image = centers[labels].reshape(image.shape)
 # save image to file
@@ -57,13 +57,13 @@ output_file = "paht/to/output_image.png"
 cv2.imwrite(output_file, output_image)
 ```
 \
-Now let's compare the original image (left) and the output image (right). The blurry, grey-ish boundary of the kanji is obviously gone.
+Now let's compare the original image (left) and the output image (right). The blurry, grey-ish boundary of the kanji is obviously gone, every pixel is either purely black or purely white.
 <p align="center">
 <img width="300" height="300" src="{{site.baseurl}}/images/posts/opencv_cluster/maboroshi.jpeg">
 <img width="300" height="300" src="{{site.baseurl}}/images/posts/opencv_cluster/maboroshi_clustered.png">
 </p>
 
-Now that we have labelled each pixel, let's have some fun!
+Now that we have a clean labelling of each pixel, let's have some fun!
 Read a second image that is of a mountain, replace the white background of the kanji by the mountain, and replace the kanji by grey.
 
 <p align="center">
@@ -105,5 +105,4 @@ cv2.imwrite(output_file, output_image)
 ```
 
 ---
-
  

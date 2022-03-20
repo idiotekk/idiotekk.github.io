@@ -15,7 +15,7 @@ menu__settings:
     - title: 'Blog'
       url: '/blog/'
     - title: 'Gallery'
-      url: '/gallery/'
+      url: '/gallery'
 #    - title: 'About'
 #      url: '/about/'
 #    - title: 'Contact'
@@ -29,81 +29,6 @@ menu__settings:
 hero:
   hero__title: Welcome!
   hero__description: I am a programming artist.
-
-
-#-------------------------------
-# Portfolio Settings
-# selected_artworks:
-#   portfolio__title: selected artworks
-#   portfolio__gallery:
-
-#     - image: /images/0xzuki/sakura_4510.gif
-#       title: Fallen sakura
-#       description: Let the sakura rain...
-
-#     - image: /images/0xzuki/rain_4375.gif
-#       title: Rain
-#       description: "Happy when it rains."
-
-#     - image: /images/0xzuki/quadtree_dot_9079.gif
-#       title: Quadtree
-#       description: Quadtree traverse of 0xzuki 9079.
-
-#     - image: /images/0xzuki/2549_circles_colored_False.png
-#       title: Vinyl
-#       description: Mimicing the vinyl style.
-
-# portfolio2:
-#   portfolio__title: midnightbreeze fan arts
-#   portfolio__gallery:
-#     - image: /images/midnightbreeze/rain_mb2.gif
-#       title: Midnight
-#       description: Rain.
-
-
-# portfolio:
-#   portfolio__title: 0xzuki fan arts
-#   portfolio__gallery:
-
-#     - image: /images/0xzuki/6067_bg_color_change.png
-#       title: Background switch
-#       description: Changed bg color of a 0xzuki to 8 different colors.
-
-#     - image: /images/0xzuki/0xzuki.png
-#       title: Minimalist banner
-#       description: Size is desinged for twitter banners.
-
-#     - image: /images/0xzuki/sakura_4510.gif
-#       title: Fallen sakura
-#       description: Let the sakura rain...
-
-#     - image: /images/0xzuki/rain_4375.gif
-#       title: Rain
-#       description: "Happy when it rains."
-
-#     - image: /images/0xzuki/quadtree_dot_9079.gif
-#       title: Quadtree
-#       description: Quadtree traverse of 0xzuki 9079.
-
-#     - image: /images/0xzuki/2549_circles_colored_False.png
-#       title: Vinyl
-#       description: Mimicing the vinyl style.
-
-#     - image: /images/0xzuki/p4_circles_colored_True.png
-#       title: Vinyl (colored)
-#       description: Mimicing the vinyl style.
-
-# portfolio2:
-#   portfolio__title: midnightbreeze fan arts
-#   portfolio__gallery:
-#     - image: /images/midnightbreeze/rain_mb2.gif
-#       title: Midnight
-#       description: Rain.
-
-# examples 
-#    - image: /images/gallery-02.jpg
-#      title: Paula Vermeulen
-#      description: Gray mountain covered by mountain <a href="https://unsplash.com/photos/_f2m3mEkaaU">Unsplash</a>
 
 
 #-------------------------------

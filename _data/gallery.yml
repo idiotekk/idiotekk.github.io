@@ -47,7 +47,7 @@ selected_artworks:
 
     - image: /images/0xzuki/sakura_4510.gif
       title: Fallen sakura
-      description: 0xzuki [#14510](https://opensea.io/assets/0x2eb6be120ef111553f768fcd509b6368e82d1661/4510) animated.
+      description: 0xzuki <a href="https://opensea.io/assets/0x2eb6be120ef111553f768fcd509b6368e82d1661/4510"> #14510 </a> animated.
 
 
 portfolio2:
@@ -98,7 +98,7 @@ portfolio:
 
     - image: /images/0xzuki/sakura_4510.gif
       title: Fallen sakura
-      description: Let the sakura rain...
+      description: 0xzuki <a href="https://opensea.io/assets/0x2eb6be120ef111553f768fcd509b6368e82d1661/4510"> #14510 </a> animated.
 
     - image: /images/0xzuki/rain_4375.gif
       title: Rain

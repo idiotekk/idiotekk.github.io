@@ -37,26 +37,35 @@ portfolio:
   portfolio__title: 0xzuki fan arts
   portfolio__gallery:
     - image: /images/0xzuki/2549_circles_colored_False.png
-      title: Vinyl zuki
+      title: Vinyl
       description: Mimicing the vinyl style.
 
     - image: /images/0xzuki/6067_bg_color_change.png
-      title: Background change
+      title: Background switch
       description: Changed bg color of a 0xzuki to 8 different colors.
-
-    - image: /images/0xzuki/sakura_4510.gif
-      title: Fallen sakura
-      description: Let the sakura rain.
-
-    - image: /images/0xzuki/quadtree_dot_9079.gif
-      title: Quadtree zuki
-      description: Quadtree traverse of 0xzuki 9079.
 
     - image: /images/0xzuki/0xzuki.png
       title: Minimalist banner
       description: Size is desinged for twitter banners.
 
-    
+    - image: /images/0xzuki/sakura_4510.gif
+      title: Fallen sakura
+      description: Let the sakura rain...
+
+    - image: /images/0xzuki/rain_4375.gif
+      title: Rain
+      description: "Happy when it rains."
+
+    - image: /images/0xzuki/quadtree_dot_9079.gif
+      title: Quadtree
+      description: Quadtree traverse of 0xzuki 9079.
+
+portfolio2:
+  portfolio__title: 0xzuki fan arts
+  portfolio__gallery:
+    - image: /images/0xzuki/2549_circles_colored_False.png
+      title: Vinyl
+      description: Mimicing the vinyl style.
 
 # examples 
 #    - image: /images/gallery-02.jpg

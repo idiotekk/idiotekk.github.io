@@ -83,6 +83,10 @@ generative_art:
       title: Circles
       description: Circles in my mind.
 
+    - image: /images/generative_art/eth.gif
+      title: Spinning octahedron on a starry night
+      description: This is one presentation of Ethereum log in 3D.
+
 
 portfolio:
   portfolio__title: 0xzuki fan arts

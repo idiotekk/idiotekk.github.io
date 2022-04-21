@@ -1,8 +1,8 @@
 #-------------------------------
 # Site Settings
-title: mayaka
+title: miikka
 logo: # You can add own logo. For example '/images/logo.png'.
-author: 0xmayaka
+author: 0xMiikka
 description: Clancy is a elegant portfolio theme for Jekyll.
 
 
@@ -43,7 +43,7 @@ mailchimp:
 #-------------------------------
 # Footer Settings
 social:
-- {icon: "ion-logo-twitter", color: "#55acee", label: Twitter, link: "https://twitter.com/0xmayaka"}
+- {icon: "ion-logo-twitter", color: "#55acee", label: Twitter, link: "https://twitter.com/0xmiikka"}
 #- {icon: "ion-logo-facebook", color: "#3b5999", label: Facebook, link: "https://facebook.com"}
 #- {icon: "ion-logo-pinterest", color: "#bd081c", label: Pinterest, link: "https://pinterest.com"}
 #- {icon: "ion-logo-dribbble", color: "#ea4c89", label: Dribbble, link: "https://dribbble.com"}

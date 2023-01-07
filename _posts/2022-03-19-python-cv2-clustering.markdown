@@ -14,7 +14,7 @@ To give a concrete example, this image below (幻; a kanji standing for "illusio
 <img align="center" width="300" height="300" src="{{site.baseurl}}/images/posts/opencv_cluster/maboroshi.jpeg">
 </p>
 
-However it has more than 100 colors spanning a spectrum from pure black to pure white, which makes some downstream processing difficult (like "replacing white by red" for example). How can one replace "nearly black" with black and "nearly white" with white? A nice solution is given by the kmeans-clustering algorithm from a python library `opencv`. Shown below is a step-by-step example with the image above.
+However, it has more than 100 colors spanning a spectrum from pure black to pure white, which makes some downstream processing difficult (like "replacing white by red" for example). How can one replace "nearly black" with black and "nearly white" with white? A nice solution is given by the kmeans-clustering algorithm from a python library `opencv`. Shown below is a step-by-step example with the image above.
 
 First, install [opencv](https://pypi.org/project/opencv-python/). In most cases you just need to run in terminal:
 ```bash
